@@ -17,7 +17,7 @@ function App() {
       </h1>
       <div className='navbar-container'>
         <ul className='flex font-bold mb-8'>
-          <li className='w-1/3 h-8 text-center' onClick={() =>{setPage(window.location.reload())}}>Home</li>
+          <li className='w-1/3 h-8 text-center' onClick={() =>{setPage(window.location.reload())}}>Ofek</li>
           <div className='workersdrop w-1/3 text-center gap-y-2 flex flex-col items-center' >Worker
               <li className='workersdrop-content  bg-black h-10 w-32 absolute mt-7  ' onClick={() =>{setPage(<WorkerForm/>)}}>Add Worker</li>
               <li className='workersdrop-content  bg-black w-32 absolute mt-14' onClick={() =>{setPage(<GetWorkers />)}}>Show All Workers</li>
